@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-lg-4 col-md-4">
+             <img src="./images/Vanessa.JPG" alt="foto" id="foto">
+                </div> <!--col 1-->
+
+                <div class="col-lg-8 col-md-8">
+                    <div class="d-flex flex-column">
+                        <div class="p-5 bg-dark text-white">
+                            <div class="d-flex flex-row justify-content-between align-items-center" >
+                                <h3 class="display-4">Vanessa Morales</h3>
+                                <div> <i class="fab fa-linkedin-in"></i></div><!--facebook-->
+                                <div>  <i class="fab fa-github"></i> </div><!--github--> 
+                            </div><!--flex row-->
+                        </div><!--bg dark-->
+                    </div><!--flex column-->
+                   
+                    <div class="p-3 text-white bg-black">
+                            Front-End Developer e Ingeniera en Infraestructuras y Plataformas Tecnológicas                        
+                    </div> <!--front end-->
+                        <div class="d-flex flex-row text-center text-white">
+                            <div class="p-4 bg-success font-div" data-toggle="collapse" data-target="#inicio">
+                                <i class="fas fa-home fa-2x d-block"></i> Inicio
+                            </div>
+                            <div class="p-4 bg-warning font-div" data-toggle="collapse" data-target="#Proyectos">
+                                <i class="fas fa-folder-open fa-2x d-block"></i> Proyectos
+                            </div>
+                            <div class="p-4 bg-danger font-div" data-toggle="collapse" data-target="#habilidades">
+                                <i class="fas fa-file-code fa-2x d-block"></i> Habilidades
+                            </div>
+                            <div class="p-4 bg-primary font-div" data-toggle="collapse" data-target="#contacto">
+                                <i class="fas fa-envelope-open fa-2x d-block"></i> Contacto
+                            </div>
+                            
+                        </div><!--links-->
+                </div> <!--col 2-->
+
+                
+            </div> <!--class row-->
+        </div> <!--class container-->
+    </header>
+
+    <div class="container">
+        <div class="collapse" id="inicio">
+            <div class="p-5 bg-success text-white">
+                <h2>Sobre Mí</h2>
+                <p>Mi nombre es Vanessa Morales. Hace unos años conocí el mundo de la tecnología y me atrapó; desde entonces cada día estoy aprendiendo cosas nuevas que me permitan continuar desarrollando mis conocimientos.
+                   Soy proactiva, constante, positiva, con rápida capacidad de aprendizaje, metódica, me apasionan los desafíos y estoy llena de energía, sueños y metas.
+                   En mis tiempos libres disfruto de la naturaleza, la lectura, el gimnasio y mis hijos.
+                </p>
+            </div><!--bg succes-->  
+        </div><!--id inicio-->
+
+        <div class="collapse" id="Proyectos">
+        <div class="p-5 bg-warning text-white">
+            <h2>Algunos Proyectos</h2>
+            <p>Aquí podrás encontrar información sobre algunos de mis proyectos.</p>
+        </div><!--info proyectos-->
+        <div class=" card card-body">
+            <div class="card-deck text-center">
+                <div class="card">
+                    <div class="card-header text-uppercase font-weight-bold">Walk Chile</div>
+                    <div class="card-body">
+                        <img src="./images/social-network.jpg" alt="social-network">
+                        <p>Walk Chile es una red social para viajeros, Aquí puedes buscar o compartir información sobre lugares de Chile a visitar; actividades, hospedaje, y tips para preparar tu viaje.</p>
+                        <p class="bg-dark text-white p-2"> <i class="fab fa-github"></i> Repositorio</p>
+                        <p class="bg-dark text-white p-2"> <i class="fas fa-globe"></i> Web</p>
+                    </div>
+                </div><!--card-->
+
+                    <div class="card">
+                            <div class="card-header text-uppercase font-weight-bold">Pinterest</div>
+                            <div class="card-body">
+                                <img src="./images/Pinterest-replica.png" alt="">
+                                <p>Aplicación web que imita a Pinterest. La galería de imágenes es extraída de Api Unplash, y esta diseñada en formato Escritorio.
+
+                                    </p>
+                                <p class="bg-dark text-white p-2"> <i class="fab fa-github"></i> Repositorio</p>
+                                <p class="bg-dark text-white p-2"> <i class="fas fa-globe"></i> Web</p>
+                            </div>
+                        </div><!--card-->
+
+                        <div class="card">
+                                <div class="card-header text-uppercase font-weight-bold">Movietech</div>
+                                <div class="card-body">
+                                    <img src="./images/movietech.png" alt="Movietech">
+                                    <p>Movietech es una aplicación Web dirigida a usuarios que gusten del análisis de los filmes antes de elegir qué película van a disfrutar. Este sitio les permite buscar de manera ordenada la película deseada con su respectiva información.</p>
+                                    <p class="bg-dark text-white p-2"> <i class="fab fa-github"></i> Repositorio</p>
+                                    <p class="bg-dark text-white p-2"> <i class="fas fa-globe"></i> Web</p>
+                                </div>
+                            </div><!--card-->
+            </div><!--card-deck-->
+        </div><!--card card body-->
+        </div><!--proyectos-->
+ 
+        <div class="collapse" id="habilidades">
+            <div class="p-5 bg-danger text-white">
+             <h2>Habilidades</h2>
+            </div><!--info habilidades-->
+         
+         <div class="card card-body">
+             <div class="row">
+                 <div class="col-lg-2 col-md-2 p-2"> <img src="./images/javascript.png" alt=""></div>
+                 <div class="col-lg-2 col-md-2 p-2"> <img src="./images/bootstrap.jpg" alt=""></div>
+                 <div class="col-lg-2 col-md-2 p-2"> <img src="./images/css3.jpg" alt=""></div>
+                 <div class="col-lg-2 col-md-2 p-2"> <img src="./images/firebase.png" alt=""></div>
+                 <div class="col-lg-2 col-md-2 p-2"> <img src="./images/html5.png" alt=""></div>
+                 <div class="col-lg-2 col-md-2 p-2"> <img src="./images/reactjs.png" alt=""></div>
+                 <div class="col-lg-2 col-md-2 p-2"> <img src="./images/github.png" alt=""></div>
+                 <div class="col-lg-2 col-md-2 p-2"> <img src="./images/linux.jpg" alt=""></div>
+                 <div class="col-lg-2 col-md-2 p-2"> <img src="./images/vmware.jpg" alt=""></div>
+                 <div class="col-lg-2 col-md-2 p-2"> <img src="./images/netapp.jpg" alt=""></div>
+             </div>
+         </div>
+        </div><!--collapse habilidades-->
+
+             <div class="collapse" id="contacto">
+                <div class="p-5 bg-primary text-white">
+                    <h2>Contacto</h2>
+                    <p>Fono: +56940100870</p>
+                    <p>Email: vnss.morales@gmail.com</p>
+                </div><!--info contacto-->
+             </div>
+
+    </div><!--container inicio-->
+
+    <div class="container">
+    <footer class="p-5 bg-dark text-center">
+        <button ><i class="fas fa-download fa-2x"></i>Descargar CV</button>
+    </footer>
+   </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  
+    <script type="text/javascript">
+    $('.font-div').click(function(){
+        $('.collapse').collapse('hide');
+    });
+
+    </script>
+</body>
+</html>
